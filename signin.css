@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("CottageMainPicture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding: 0;
+}
+
+.logo {
+    width: 220px;
+}
+
+section {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    background-color: rgba(255,255,255,0.3);
+    font-family: verdana , sans-serif;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    width: 7cm;
+    /*padding: 8px;*/
+    /*margin-bottom: 12px;*/
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 110%;
+}
+
+input:focus {
+    outline: none;
+    background: rgba(255,255,255,0.3);
+}
+
+button {
+    width: 50%;
+    margin-bottom: 12px;
+    padding: 5px;
+    background-color: rgba(255,255,255,0.3);
+    border: none;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+
+button:active {
+    background-color: rgba(255,255,255,0.6);
+}
+
+a {
+    display: inline-block;
+    padding: 5px;
+    font-size: small;
+}
+
+a:hover {
+    color: gray;
+}

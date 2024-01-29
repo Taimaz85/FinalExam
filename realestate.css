@@ -1,0 +1,44 @@
+body {
+    background-image: url(./CottageMainPicture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media(min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media(min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.house {
+    list-style-type: none;
+    margin-bottom: 80px;
+}

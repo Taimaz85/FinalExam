@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculation of payment</title>
+        <link rel="stylesheet" href="./signin.css">
+        <link rel="stylesheet" href="./index&calculate.css">
+        <script src="./app.js" defer></script>
+        <style>
+            #btn-calculate {
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Calculate amount of payments</h1>
+        
+        <form action="/" method="post">
+            <label>
+                Amount($):
+                <br/>
+                <input 
+                    id="amount"
+                    name="amount"
+                    type="number" 
+                    min="100000" 
+                    max="300000" 
+                    step="50000"
+                />
+            </label>
+            <br/>
+            <label>
+                Rate(%):
+                <br/>
+                <input 
+                    id="rate"
+                    name="rate"
+                    type="number"
+                    min="0"
+                    max="12"
+                    step="1"
+                />
+            </label>
+            <br/>
+            <label>
+                Years:
+                <br/>
+                <input
+                    id="years"
+                    name="years"
+                    type="number"
+                    min="1"
+                    max="5"
+                    step="1"
+                />
+            </label>
+            <br/>
+            <button 
+                id="btn-calculate"
+                type="button">
+                Calculate
+            </button>
+            <button
+                id="btn-reset"
+                type="reset">
+                Reset
+            </button>
+            <div>
+                <label>
+                    Monthly Payment($)
+                    <br/>
+                    <input 
+                        type="text"
+                        id="monthly-payment"
+                        placeholder="Monthly Payment"/>
+                </label>
+                <br/>
+                <label>
+                    Total Payment($)
+                    <br/>
+                    <input 
+                        type="text"
+                        id="total-payment"
+                        placeholder="Total Payment"/>
+                </label>
+                <br/>
+                <label>
+                    Total Interest($)
+                    <br/>
+                    <input 
+                        type="text"
+                        id="total-interest"
+                        placeholder="Total Interest"/>
+                </label>
+            </div>
+            <a href="./index.html">Back to home</a>
+        </form>
+    </body>
+</html>

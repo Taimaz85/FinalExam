@@ -1,0 +1,13 @@
+form {
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+button {
+    margin: 10px;
+}
